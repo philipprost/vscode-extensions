@@ -1,0 +1,12 @@
+{
+  "name": "vscode-extensions",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test:sys-stats": "yarn workspace sys-stats test",
+    "watch:sys-stats": "yarn workspace sys-stats watch",
+    "package:sys-stats": "yarn workspace sys-stats package"
+  }
+}
